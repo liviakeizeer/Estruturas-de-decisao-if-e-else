@@ -1,0 +1,8 @@
+a =int( input("digite o primeiro numero "))# Solicita ao usuário para digitar um número e converte o valor para inteiro
+# Verifica se o número digitado é maior que zero
+if a >= 0:
+  print(a) # Se o número for maior que zero, imprime que o número é positivo
+  print("o numero " ,a,"é positivo")# Se o número não for maior que zero, imprime que o núm ero é negativo
+else:
+  print(a)
+  print("o numero " , a, "é negativo")

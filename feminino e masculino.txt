@@ -1,0 +1,13 @@
+from re import A
+# Solicita ao usuário para digitar "M" para Masculino ou "F" para Feminino
+a = input("digite a letra F(feminino) ou M(masculino)")
+#verifique se a opcao é a letra F
+if a == "F" or a == "f":
+  print("Você selecionou a opção feminino")
+elif a == "M" or a == "m":
+    print("Você selecionou a opção masculino")
+else:
+      print("Resposta invalida")
+# Verifica se a entrada é "M" (Masculino)
+# Se a entrada for "M", imprime "Sexo masculino" # Se a entrada não for
+# Se a entrada não for nem "M" nem "F", imprime "Sexo invál i
